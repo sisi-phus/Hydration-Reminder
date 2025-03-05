@@ -60,7 +60,7 @@ label = tk.Label(window, text="meow",font=("Rubik Glitch", "16"), borderwidth=0,
 label.pack_configure(pady=10) # .pack is just for positioning and stuff ^.w.^
 canvas.create_window(270, 100, window=label)
 
-timer_label = tk.Label(window, text="00:00",font="Rubik Glitch", "16")
+timer_label = tk.Label(window, text="00:00",font=("Rubik Glitch"), "16")
 timer_label.pack(pady=10)
 canvas.create_window(270, 200, window=timer_label)
 
